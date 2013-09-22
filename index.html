@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SimplyLuke</title>
+	<meta name="description" content="Luke Wright is a Web Developer, Photographer, Geek located in Austin, TX.">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
 				<li><a href="#code">Code</a></li>
 				<li><a href="#photography">Photography</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a href="blog.simplyluke.com" target="_blank">Blog</a></li>
+				<li><a href="http://blog.simplyluke.com" target="_blank">Blog</a></li>
 			</ul>
 			</nav>
 		</div>
@@ -24,22 +25,18 @@
 	<section class="intro">
 		<a class="anchor" name="intro"></a>
 		<div class="inner">
-			<p><span class="hello">I'm Luke Wright. I'm a <a href="#code">web developer</a> and <a href="#photography">photographer.</a></span> I live in Austin, TX and code for <a href="http://rainforestpartenership.org/">Rainforest Partnership</a></p>
+			<p>I'm Luke. I'm a <a href="#code">web developer</a> and <a href="#photography">photographer</a> from Austin, TX.</p>
 		</div>
 	</section>
 	<section class="code">
 		<a class="anchor" name="code"></a>
 		<div class="inner">
 			<h1>Code</h1>
-			<br>
-			<div class="code-rest">
+			<hr>
+			<div class="large">
+				<p>I code for <a href="http://rainforestpartnership.org/" target="_blank">Rainforest Partnership</a> and enjoy working on projects and programming in my spare time.</p>
+				<br>
 				<a href="https://github.com/simplyluke" target="_blank">My Github</a>
-				<h3>Projects I Help With</h3>
-				<ul>
-					<li><a href="http://rainforestpartnership.org" target="_blank">rainforestpartnership.org</a></li>
-					<li><a href="http://filmsfortheforest.org" target="_blank">filmsfortheforest.org</a></li>
-					<li><a href="http://graspapp.io" target="_blank">graspapp.io</a> Front End</li>
-				</ul>
 			</div>
 		</div>
 	</section>
@@ -47,6 +44,19 @@
 		<a class="anchor" name="photography"></a>
 		<div class="inner">
 			<h1>Photography</h1>
+			<hr>
+			<div class="inner">
+				<ul class="rslides">
+				  <li><img src="https://farm4.staticflickr.com/3726/9467245815_0b777eac03_z.jpg" alt="The Milky Way"></li>
+				  <li><img src="https://farm6.staticflickr.com/5337/9755222156_873c518ce1_z.jpg" alt="Glitched Factory"></li>
+				  <li><img src="https://farm8.staticflickr.com/7411/9579750692_4d01fd8553_z.jpg" alt="Digitally Modified Grand Canyon Photograph"></li>
+				  <li><img src="https://farm4.staticflickr.com/3682/9549725835_74350551cd_z.jpg" alt="Swans"></li>
+				</ul>
+			</div>
+			<div class="large">
+				<p>Check out my <a href="http://flickr.com/lw-crazyphotography" target="_blank">flickr,</a> <a href="https://www.facebook.com/LukeWrightPhotography" target="_blank">facebook,</a> and <a href="http://500px.com/lukewright">500px.</a></p>
+			</div>
+
 		</div>
 	</section>
 	<section class="contact">
@@ -58,5 +68,12 @@
 	<footer>
 		
 	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="scripts/slides.min.js"></script>
+	<script>
+	  $(function() {
+	    $(".rslides").responsiveSlides();
+	  });
+	</script>
 </body>
 </html>
