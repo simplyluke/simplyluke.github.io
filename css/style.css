@@ -5,24 +5,85 @@ body {
 	font-family: Helvetica, Helvetica-Neue, Arial, sans-serif;
 	max-width: 100%;
 	line-height: 1.2em;
+	font-size: 1.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+a {
+	color: #234450;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #262e58;
 }
 
 header {
 	background-color: #c5b7a8;
 	width: 100%;
-/*	padding-bottom: 20px;
-*/}
+	font-weight: lighter;
+	font-size: 1.3em;
+}
+
+header a {
+	text-decoration: none;
+	color: #eee;
+}
+
+header .name {
+	font-size: 1.8em;
+}
+
+header .name a {
+	color: #000;
+}
+
+header a:hover, a:active {
+	color: #fff;
+}
+header nav {
+	float: right;
+}
+
+header li {
+	display: inline;
+}
 
 section.intro {
-	font-size: 2.4em;
+	font-size: 2em;
 	line-height: 1.3em;
 	background-color: #c5ada8;
 	padding: 4% 0;
 }
 
+section.code {
+	background-color: #a9b8bd;
+}
+
+section.code .code-rest {
+	font-size: 1.7em;
+	line-height: 1.3em;
+}
+
+section.photography {
+	background-color: #e2ddd0;
+}
+
+section.contact {
+	background-color: #b5b7c3;
+}
+
 @media (min-width: 1200px) {
 	.inner {
-		width: 50%;
+		width: 60%;
+		max-width: 900px;
 		margin: 0 auto;
 		padding: 30px 0;
 	}
@@ -30,13 +91,29 @@ section.intro {
 
 @media (max-width: 1200px) {
 	.inner {
-		width: 80%;
+		width: 75%;
 		margin: 0 auto;
+		padding: 30px 0;
 	}
 }
 
-@media (max-width: 1024px){
+@media (max-width: 900px){
+	header nav {
+		font-size: .86em;
+	}
+}
+
+@media (max-width: 800px){
 	.inner {
+		width: 95%;
+	}
+	header .name {
 		width: 100%;
+		font-size: 1.9em;
+		line-height: 1.2em;
+	}
+	header nav {
+		float: none;
+		padding-top: 10px;
 	}
 }
