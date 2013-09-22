@@ -79,6 +79,7 @@ section.photography {
 
 section.contact {
 	background-color: #b5b7c3;
+	padding-bottom: 40px;
 }
 
 @media (min-width: 1200px) {
