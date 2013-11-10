@@ -1,5 +1,6 @@
-## Simple v1.0.2 by Jason Schuller (Jason.sc)
-Copyright Circa75 Media, LLC (Circa75.co)
+# Original theme: Simple v1.0.2 by Jason Schuller (Jason.sc)
+
+## Custom modifications: Luke Wright - 2013
 
 ### License
 [Creative Commons - CC BY-NC](http://creativecommons.org/licenses/by-nc/3.0/legalcode)
