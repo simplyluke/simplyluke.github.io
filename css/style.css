@@ -1,90 +1,59 @@
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
+html {
+	background: url("https://farm6.staticflickr.com/5452/9467245457_3e02cc9169_o.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
 body {
 	font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
 	max-width: 100%;
 	line-height: 1.2em;
-	font-size: 1.3em;
+	font-size: 3em;
+	color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: lighter;
-}
+span.shade {
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	width: 100%;
+	height: 100%;
 
+	top: 0;
+}
 h1 {
 	font-size: 2.4em;
 }
 
 a {
-	color: #234450;
+	color: #fff;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #262e58;
-}
-
-header {
-	background-color: #c5b7a8;
-	width: 100%;
-	font-weight: lighter;
-	font-size: 1.3em;
-}
-
-header a {
-	text-decoration: none;
 	color: #eee;
+	text-decoration: underline;
 }
 
-header .name {
-	font-size: 1.8em;
-}
 
-header .name a {
-	color: #000;
-}
-
-header a:hover, a:active {
-	color: #fff;
-}
-header nav {
-	float: right;
-}
-
-header li {
-	display: inline;
-}
-
-section.intro {
+.large {
 	font-size: 3em;
-	line-height: 1.3em;
-/*	background-color: #c5ada8;
-*/	padding: 4% 0;
+	line-height: 1.4em;
 }
 
-
-section.code {
-/*	background-color: #a9b8bd;
-*/}
-
-section .large {
-	font-size: 1.7em;
-	line-height: 1.3em;
+.contact {
+	margin-top: 5%;
 }
 
-section.photography {
-/*	background-color: #e2ddd0;
-*/}
-
-section.contact {
-/*	background-color: #b5b7c3;
-*/	padding-bottom: 40px;
+.inner {
+	
 }
-
 @media (min-width: 1200px) {
 	.inner {
-		width: 60%;
+		width: 80%;
 		max-width: 900px;
 		margin: 0 auto;
 		padding: 30px 0;
@@ -99,63 +68,24 @@ section.contact {
 	}
 }
 
-@media (max-width: 900px){
-	header nav {
-		font-size: .86em;
-	}
-}
 
 @media (max-width: 800px){
 	.inner {
 		width: 95%;
 	}
-	header .name {
-		width: 100%;
-		font-size: 1.9em;
-		line-height: 1.2em;
+
+	body {
+		font-size: 2em;
 	}
-	header nav {
-		float: none;
-		padding-top: 10px;
+
+	.contact {
+		margin: 0;
 	}
 }
 
 @media (max-width: 500px) {
-	section.intro p {
-		font-size: .8em;
+	body {
+		font-size: 1.5em;
 	}
+	
 }
-
-/* Slides */
-
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
