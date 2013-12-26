@@ -3,8 +3,9 @@ layout: post
 title: "Give It a Shot"
 date: 2013-12-26 15:35:43
 ---
+![](https://farm6.staticflickr.com/5515/11214712954_2e7f183842_c.jpg)
 
-This must be the fourth or fifth time I've started blogging. Perhaps this one will survive the week long mark, perhaps it won't.
+This must be the fourth or fifth time I've started blogging. Perhaps this one will survive, perhaps it won't.
 
 ## The Tech
 
