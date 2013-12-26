@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Give It a Shot"
+date: 2013-12-26 15:35:43
+---
 
 This must be the fourth or fifth time I've started blogging. Perhaps this one will survive the week long mark, perhaps it won't.
 
