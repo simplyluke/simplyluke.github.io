@@ -1,39 +1,23 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Luke Wright</title>
-	<meta name="description" content="Luke Wright is a Web Developer, Photographer, Geek located in Austin, TX.">
-	<link rel="stylesheet" href="css/style.css">
-  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<script type="text/javascript">
+---
+layout: default
+title: Luke Wright 
+---
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-32429996-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
-	</script>
-</head>
-<body>
-	<span class="shade">
-	<section class="main">
-		<div class="inner">
-			<span class="large">Luke Wright</span><br/>
-			<span>Developer. Photographer. Geek.</span>
-			<div class="contact">
-			Austin, TX<br>
-			<a href="mailto:luke@simplyluke.com">luke@simplyluke.com</a> <br> 
-			<a href="http://github.com/simplyluke/" target="_blank">Github</a>  
-			<a href="http://500px.com/lukewright/" target="_blank">500px</a></div>
-		</div>
-	</section>
-	</span>
-</body>
-</html>
+<div class="background-image">
+  <section class="main">
+    <div class="inner">
+      <span class="large">Luke Wright</span><br/>
+      <div class="nouns">Developer. Photographer. Geek.</div>
+    </div>
+  </section>
+</div>
+<div id="home">
+<div class="inner">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts reversed %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+</div>
