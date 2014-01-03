@@ -37,7 +37,8 @@ p {
 }
 
 section {
-  margin-top: 50%;
+  margin-top: 30%;
+  padding-bottom: 25%;
 }
 
 a {
@@ -111,7 +112,7 @@ ul.nostyle {
 }
 
 .contact img {
-  height: 50px;
+  height: 40px;
 }
 
 /*****************************************************************************/
@@ -119,6 +120,12 @@ ul.nostyle {
 /* Site
 /*
 /*****************************************************************************/
+.icon-art {
+  width: 100%;
+  text-align: center;
+  font-size: 5em;
+}
+
 
 .icon-nav {
   color: #555;
@@ -155,10 +162,6 @@ ul.nostyle {
 
 .meta {
   color: #aaa;
-}
-
-.footer {
-  margin-top: 10%;
 }
 
 

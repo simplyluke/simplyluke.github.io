@@ -14,22 +14,24 @@ title: Luke Wright
 <div id="home">
 <div class="inner">
   <section class="about">
+    <span class="icon ion-laptop icon-art"></span>
     <p>I'm a web developer and student living in Austin, TX. I'm currently coding for <a href="//rainforestpartnership.org" target="_blank">Rainforest Partnership</a>. My passions include coding, photography, and helping introduce people to coding.</p>
     <p>Occasionally I blog about things that are interesting to me. I'm always looking for new challenges, opportunities, and projects to work on.</p>
     <div class="icon ion-chevron-down icon-nav"></div>
   </section>
   <section class="blog">
+    <span class="icon ion-edit icon-art"></span>
     <h1>Blog Posts</h1>
     <ul class="posts">
       {% for post in site.posts reversed %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
-    <div class="icon ion-chevron-down icon-nav"></div>
 
   </section>
   <section class="projects">
-    <h1>My Projects</h1>
+    <span class="icon ion-code icon-art"></span>
+    <h1>My Projects</span></h1>
     <h3>A Sample of Work I've Done</h3>
     <hr>
     <h4>Web</h4>
