@@ -20,8 +20,9 @@ title: Luke Wright
     <div class="icon ion-chevron-down icon-nav"></div>
   </section>
   <section class="blog">
-    <span class="icon ion-edit icon-art"></span>
+  <a href="/feed.xml"><span class="icon ion-social-rss icon-art"></span></a>
     <h1>Blog Posts</h1>
+    <h4><a href="/feed.xml">Subscribe</a></h4>
     <ul class="posts">
       {% for post in site.posts %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
