@@ -38,8 +38,7 @@ p {
   margin: 1em 0;
 }
 
-section {
-  margin-top: 30%;
+#home section {
   padding-bottom: 25%;
 }
 
@@ -119,6 +118,78 @@ ul.nostyle {
 
 /*****************************************************************************/
 /*
+/* Resume
+/*
+/*****************************************************************************/
+
+#resume section {
+  margin-bottom: 30px;
+}
+
+#resume .intro h1 {
+  font-size: 4em;
+  width: 100%;
+}
+
+#resume .intro h1 span {
+  float: right;
+  font-size: 1.4em;
+}
+
+#resume h3 {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+#resume #tech ul {
+  list-style: none;
+}
+
+#resume #tech li {
+  display: inline-block;
+  font-family: sans-serif;
+  background-color: #5E96FF;
+  padding: 0px 10px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+#resume #tech li a {
+  color: #fff;
+}
+
+
+
+.gig-left {
+  width: 50%;
+  display: inline-block;
+} 
+
+.gig-right {
+  width: 49%;
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.gig-right p {
+  text-align: left;
+}
+
+.gig {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding: 10px 0 25px 0;
+}
+
+.gig h2 {
+  font-size: 1.3em;
+}
+
+/*****************************************************************************/
+/*
 /* Site
 /*
 /*****************************************************************************/
@@ -167,12 +238,14 @@ ul.nostyle {
 }
 
 
+
+
 @media (min-width: 1200px) {
 
   
   .inner {
     width: 60%;
-    max-width: 550px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 10px 0;
   }
@@ -196,11 +269,12 @@ ul.nostyle {
   .inner {
     width: 95%;
   }
-
+/*
   body {
     font-size: 2em;
-  }
+  }*/
 
+  #resume .intro h1 span {display: none;}
   .large {
     font-size: 1.4em;
   }
