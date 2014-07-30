@@ -75,7 +75,7 @@ ul.nostyle {
 }
 
 .background-image {
-  background: url(https://farm8.staticflickr.com/7282/9737040375_b297749f93_h.jpg) no-repeat center center fixed;
+  background: url('/images/background.jpg') no-repeat 50% 50% fixed;
   margin-bottom: 30px;
   min-height: 400px;
  -webkit-background-size: cover;
@@ -114,6 +114,15 @@ ul.nostyle {
 
 .contact img {
   height: 40px;
+}
+
+#home section.resume-cta {
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.resume-cta .icon {
+  font-size: 1.5em;
 }
 
 /*****************************************************************************/
