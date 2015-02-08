@@ -117,12 +117,88 @@ ul.nostyle {
 }
 
 #home section.resume-cta {
-  padding-bottom: 10%;
+  padding-bottom: 0;
 }
 
 .resume-cta .icon {
   font-size: 1.5em;
 }
+
+/*****************************************************************************/
+/*
+/* Portfolio
+/*
+/*****************************************************************************/
+
+.projects h3 {
+  font-size: 1.15em;
+  line-height: 1.15em;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio_container {
+  text-align: center;
+}
+.portfolio_container > li {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.portfolio_image {
+  background-size: cover;
+  background-position: center center;
+  width: 200px;
+  height: 200px;
+}
+
+.portfolio_info {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  transition: background 0.2s ease;
+}
+
+.portfolio_info:hover {
+  background: rgba(0,0,0,0.2);
+}
+
+a > .portfolio_info {
+  color: #fff;
+}
+
+.portfolio_info > h4 {
+  padding: 5px;
+}
+
+.item_info {
+  display:block;
+  width: 100%;
+  font-size: .8em;
+  font-family: 'EB Garamond', serif;
+}
+
 
 /*****************************************************************************/
 /*
@@ -134,12 +210,12 @@ ul.nostyle {
   margin-bottom: 30px;
 }
 
-#resume .intro h1 {
+.intro h1 {
   font-size: 4em;
   width: 100%;
 }
 
-#resume .intro h1 span {
+.intro h1 span {
   float: right;
   font-size: 1.4em;
 }
