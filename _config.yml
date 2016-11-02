@@ -2,4 +2,4 @@ name: Luke Wright
 description: Luke Wright
 url: http://simplyluke.com
 markdown: redcarpet
-pygments: true
+highlighter: true

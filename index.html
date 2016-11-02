@@ -1,171 +1,68 @@
 ---
 layout: default
-title: Luke Wright 
+title: Luke Wright  
 ---
-
-<div class="background-image">
-  <div class="main">
-    <div class="inner home-top">
-      <span class="large">Luke Wright</span><br/>
-    </div>
+<div id="home" class="container">
+  <div class="content">
+      
+    <h1>Luke Wright</h1>
+    <div class="wip">Work In Progress</div>
+    <ul class="links">
+      <li><a href="luke_wright_resume.pdf" target="_blank">Resume</a></li>
+      <li><a href="https://www.linkedin.com/in/simplyluke" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/simplyluke" target="_blank">Github</a></li>
+    </ul>
   </div>
-</div>
-<div id="home">
-  <div class="inner">
-    <section class="about">
-      <span class="icon ion-laptop icon-art"></span>
-      <p>I'm a web developer and student living in Austin, TX. I'm currently coding for <a href="http://www.hipstersandhamptonites.com/" target="_blank">Hipsters &amp; Hamptonites, NYC</a> and studying Computer Science at <a href="http://www.cs.utexas.edu/" target="_blank">The University of Texas at Austin</a>. I am passionate about coding, learning new things, and meeting great people.</p>
-      <p>I'm always looking for new challenges, opportunities, and projects to work on.</p>
-      <div class="icon ion-chevron-down icon-nav"></div>
-    </section>
-<!--     <section class="blog">
-    <a href="/feed.xml"><span class="icon ion-social-rss icon-art"></span></a>
-      <h1>Blog Posts</h1>
-      <h4><a href="/feed.xml">Subscribe</a></h4>
-      <ul class="posts">
-        {% for post in site.posts %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-
-    </section> -->
-    <section class="projects">
-      <span class="icon ion-code icon-art"></span>
-      <h1>My Projects</h1>
-      <hr>
-      <h3>Some of My Work Done With Hipsters &amp; Hamptonites</h3>
-      <ul class="portfolio_container">
-        <li>
-          <a href="http://www.backofhouse.com/" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/boh.jpg');"></div>
-            <div class="portfolio_info">
-              <h4>Morgan's Hotel Group - Back of House</h4>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="http://www.hipstersandhamptonites.com/clients/15" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/vice_munchies.png');"></div>
-            <div class="portfolio_info">
-              <h4>Morgan's Hotel Group - Vice Munchies</h4>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.solehub.com/" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/solehub.png');"></div>
-            <div class="portfolio_info">
-              <h4>Solehub</h4>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="http://www.lanshin.com/" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/lanshin.jpg');"></div>
-            <div class="portfolio_info">
-              <h4>Treatment By Lanshin</h4>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="http://www.tanteotequila.com/" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/jalapeno.png');"></div>
-            <div class="portfolio_info">
-              <h4>Tanteo Tequila</h4>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="http://www.hipstersandhamptonites.com/" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/office.jpg');"></div>
-            <div class="portfolio_info">
-              <h4>Hipsters &amp; Hamptonites</h4>
-            </div>
-          </a>
-        </li>
-      </ul>
-      <h3>Web</h3>
-      <ul class="nostyle portfolio_container">
-        <li>
-          <a href="//rainforestpartnership.org" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/rp.jpg')"></div>
-            <div class="portfolio_info">
-              <h4>Rainforest Partnership
-                <div class="item_info">
-                  Full Site. Joomla!
-                </div>
-              </h4>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="http://rainforestpartnership.github.io/filmsfortheforest.org/" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/f3.jpg')"></div>
-            <div class="portfolio_info">
-              <h4>
-                Films for the Forest
-                <div class="item_info">
-                  Full Site.
-                </div>
-              </h4>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="//graspapp.io" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/grasp.png')"></div>
-            <div class="portfolio_info">
-              <h4>
-                Grasp
-                <div class="item_info">
-                  Frontend.
-                </div>
-              </h4>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="//balloonchallenge.org" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/gsbc.jpg')"></div>
-            <div class="portfolio_info">
-              <h4>
-                Global Space Balloon Challenge
-                <div class="item_info">
-                  Backend.
-                </div>
-              </h4>
-            </div>
-          </a>
-        </li>
-      </ul>
-      <h3>Fun</h3>
-      <ul class="nostyle portfolio_container">
-        <li>
-          <a href="//doge.in" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/doge.jpg')"></div>
-            <div class="portfolio_info">
-              <h4>
-                Doge API
-              </h4>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="https://chrome.google.com/webstore/detail/nigelify/nhoampnninjcokgigafneomfbjofdacg?hl=en" target="_blank">
-            <div class="portfolio_image" style="background-image: url('images/portfolio/nigel.jpg')"></div>
-            <div class="portfolio_info">
-              <h4>
-                Nigelify
-              </h4>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </section>
-    <section class="resume-cta">
-      <h1><span class="icon ion-clipboard"></span> <a href="/resume">My Résumé</a></h1>
-
-    </section>
+<!--   <h1>Luke Wright</h1>
+  <p>
+    I'm a computer science student at <a href="http://www.utexas.edu/" target="_blank">The University of Texas at Austin.</a> I'm interested in technology, web development, entrepreneurship, and water skiing.
+  </p>
+  <div class="contact">
+    <a href="mailto: luke@simplyluke.com" target="_blank">luke@simplyluke.com</a> | <a target="_blank" href="https://github.com/simplyluke">Github</a>
   </div>
+  <section class="education">
+    <h2>Education</h2>
+    <ul class="no-style">
+      <li class="entry">
+        <strong>The University of Texas at Austin</strong>
+        <div>Bachelor of Science &amp; Arts in Computer Science - Business Foundations Certificate</div>
+        <div>Anticipated Graduation: May 2020</div>
+      </li>
+    </ul>
+  </section>
+  <section class="experience">
+    <h2>Experience</h2>
+    <ul class="no-style">
+      <li class="entry">
+        <strong>Hipsters &amp; Hamptonites, New York, NY</strong>                           
+        <div><em>June 2014 – Present</em></div>
+        <div>Full Stack Web Developer</div>
+        <ul>
+          <li>
+            Collaborated remotely to implement client web applications utilizing modern practices and technology
+          </li>
+          <li>
+            Developed responsive applications utilizing Ruby on Rails and several other frameworks and APIs
+          </li>
+          <li>
+            Assisted in implementation of testing and optimization of large applications to improve performance at scale
+          </li>
+        </ul>
+        <h3>Projects</h3>  
+        <ul>
+          <li></li>
+        </ul>
+      </li>
+
+
+Rainforest Partnership, Austin, TX                                         Nov. 2012 – Aug. 2014
+Technology Intern
+• Developed organization’s primary website and several promotional websites
+• Led several volunteers who assisted with internal technology of the organization
+    </ul>
+
+  </section>
+  <section class="awards">
+    
+  </section> -->
 </div>
-      {% include _resume.html %}
