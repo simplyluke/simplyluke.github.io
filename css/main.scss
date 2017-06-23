@@ -1,16 +1,13 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
+---
+---
 
-/* Global Reset */
-* {
+$orange: #BF5700;
+
+html, body { 
+  height: 100%; 
   margin: 0;
   padding: 0;
 }
-
-html, body { height: 100%; }
 
 body {
   background-color: #fff;
@@ -21,10 +18,21 @@ body {
   color: #000;
 }
 
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+a {
+  color: $orange;
+  text-decoration: none;
+}
 
 .container {
   margin-left: auto;
+  margin-right: auto;
   margin-top: auto;
+  max-width: 750px;
   text-align: center;
   height: 100%;
   display: flex;
@@ -37,13 +45,19 @@ body {
 .content {
   resize: vertical;
   overflow: auto;
+  text-align: left;
 }
 
-.wip {
-  line-height: 2em;
-}
-
-li {
-  display: inline;
-  list-style: none;
+p, ul {
+  margin-bottom: 1em;
+  list-style: circular;
+  &.links { 
+    margin: 0; 
+    padding: 0;
+    li {
+      display: inline;
+      list-style: none;
+      
+    }
+  }
 }
