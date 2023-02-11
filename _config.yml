@@ -1,5 +1,4 @@
 name: Luke Wright 
-description: Luke Wright
+description: Luke Wright is a software engineer - this is his personal site where he writes about what interests him.
 url: http://simplyluke.com
-markdown: redcarpet
-highlighter: true
+markdown: kramdown
