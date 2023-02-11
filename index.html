@@ -3,9 +3,14 @@ layout: default
 title: Luke Wright  
 ---
 <div id="home" class="container">
-  <div class="content">
-      
-    <h1>Luke Wright</h1>
-    <p>I'll be updating this soon - for more up to date info on what I'm doing professionally hit my <a href="https://www.linkedin.com/in/simplyluke/" target="_blank">linkedin</a></p>
-  </div>
+    <h1>Writing | Luke Wright's Blog</h1>
+    <p>This is the personal website of Luke Wright. I use it to write about things that interest me, which is largely the outdoors and technology.</p>
+    <ul class="postsList">
+      {% for post in site.posts %}
+        <li>
+          {{ post.date | date: "%b %d, %Y" }} - 
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
 </div>
