@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Expeirment notes: Digital Minimalism"
+title: "Experiment notes: Digital Minimalism"
 ---
 
 I just finished the experiment I [wrote about](https://simplyluke.com/2023/02/27/digital-minimalism.html) last month! This is a brief note on how it went.
