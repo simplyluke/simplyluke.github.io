@@ -31,7 +31,7 @@ Anson above the entrance to the line pictured above.
 
 ![Descending the south couloir of Geitgallien. Photographer: Jacob Winick](/images/blog/norway/descent.jpg)
 
-Descending the south couloir of Geitgallien. Photographer: Jacob Winick
+Descending the south couloir of Geitgallien. Photographer: [Jacob Winick](https://www.instagram.com/realjwin/)
 
 ![Our group and the four locals we joined up with. En route to the troll fjord after descending the mountains in the background](/images/blog/norway/big-squad.jpg)
 
