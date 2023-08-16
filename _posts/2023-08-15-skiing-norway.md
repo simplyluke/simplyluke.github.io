@@ -1,4 +1,7 @@
-# Go Ski Norway
+---
+layout: post
+title: "Go Ski Norway"
+---
 
 In March I had the privilege of joining several of my friends on an incredible ski trip to Norway. I’ve procrastinated on writing a full trip report since March, and have accepted that it won’t happen - and the specifics aren’t actually that important.
 
